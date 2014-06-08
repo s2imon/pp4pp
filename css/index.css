@@ -700,6 +700,9 @@ p.info {
 	margin: 0;
 	font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+p.info a {
+	color: #666;
+}
 
 ._image {
   width: 100%;
