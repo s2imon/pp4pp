@@ -15,3 +15,11 @@ Core to this site are several guides for adding the privacy policies to the app 
 <http://s2imon.github.io/pp4pp/play-guide.html>
 
 <http://s2imon.github.io/pp4pp/wp-guide.html>
+
+
+
+## Stuck? Get a iubenda policy
+
+<http://iubenda.com/mobile>
+
+I'll even give you 10% off your first year.
