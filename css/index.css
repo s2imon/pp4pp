@@ -567,6 +567,7 @@ section#resources, section#article {
 .cta:hover {
 	color: #fff;
 	background-color: #ea4c89;
+	text-decoration: none;
 }
 
 .goal, .pagination {
