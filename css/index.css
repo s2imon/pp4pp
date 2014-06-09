@@ -296,6 +296,11 @@ section#resources, section#article {
   text-align: center;
   margin-bottom: 1em;
 }
+.section-hr {
+	color: #666;
+	text-align: center;
+	margin-bottom: 1em;
+}
 
 #trias {
   float: left;
