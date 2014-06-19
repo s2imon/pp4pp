@@ -194,10 +194,10 @@ section#resources, section#article {
   bottom: 50px;
   left: 0;
   right: 0;
-  z-index: 32;
+  z-index: 200;
   width: 80%;
   min-width: 700px;
-  height: 48px;
+  height: auto;
   margin: 0 auto;
 }
 
