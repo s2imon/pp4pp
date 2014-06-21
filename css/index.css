@@ -99,6 +99,15 @@ hr {
 	color: #999;
 }
 
+.awesome-section {
+	position: absolute;
+	top: -30px;
+	left: 320px;
+}
+.fa-circle {
+	color: #000;
+}
+
 .description-1 p:first-child {
 	margin-bottom: .5em;
 }
@@ -168,6 +177,7 @@ section#resources, section#article {
   border: 1px solid rgb(221, 221, 221);
   border-radius: 1px;
   background-color: #ffffff;
+  position: relative;
 }
 
 #inside_app .section-title,
