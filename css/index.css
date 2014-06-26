@@ -720,6 +720,11 @@ p.info {
 p.info a {
 	color: #666;
 }
+p.microcopy {
+  color: #EA4C89;
+	font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
 
 ._image {
   width: 100%;
