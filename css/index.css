@@ -723,6 +723,7 @@ p.info a {
 p.microcopy {
   color: #EA4C89;
 	font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 10px;
 	text-align: center;
 }
 
