@@ -1,3 +1,7 @@
+> This guide is not officially published and ready yet. 
+> Most of all the images are placeholders and need licenses from my part before publishing.
+
+
 # pp4pp - Privacy Policies for Apps
 
 This is a mini site where I put my learnings from working on iubenda for app creators. Comments, feedback and push requests welcomed.
