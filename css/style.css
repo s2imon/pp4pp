@@ -556,6 +556,7 @@ section#resources, section#article {
   padding-bottom: 80px;
   border-bottom: 1px solid rgb(213, 213, 213);
   background-color: #ffffff;
+  z-index: 15;
 }
 
 #article .container {
@@ -631,6 +632,7 @@ section#resources, section#article {
   background-color: #f5f5f5;
 }
 
+/*
 .guide {
 	width: 100%;
 	margin: 0 auto;
@@ -639,10 +641,17 @@ section#resources, section#article {
 	padding-top: 45px;
 	color: #FFF;
 }
-
 .subtitle {
   color: #998787;
   font-style: italic;
+}
+*/
+
+.guide .fa-apple {
+	font-size: 6em;
+}
+.guide span {
+	text-indent: -999em;
 }
 
 .header {
