@@ -653,7 +653,7 @@ section#resources, section#article {
 	text-align: center;
 }
 .guide span {
-	text-indent: -999em;
+	margin-left: -999em;
 }
 
 .header {
