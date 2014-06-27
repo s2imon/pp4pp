@@ -632,12 +632,17 @@ section#resources, section#article {
 }
 
 .guide {
-  width: 100%;
-  margin: 0 auto;
-  font-size: 1.4em;
-  line-height: 102px;
-  text-align: center;
-  color: #ffffff;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.4em;
+	text-align: center;
+	padding-top: 35px;
+	color: #FFF;
+}
+
+.subtitle {
+  color: #998787;
+  font-style: italic;
 }
 
 .header {
@@ -684,15 +689,6 @@ section#resources, section#article {
   min-width: 700px;
   height: 48px;
   margin: auto;
-}
-
-.subtitle {
-  float: left;
-  margin-bottom: 1em;
-  width: 100%;
-  font: 700 1.591em/1.38 skolar;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.8);
 }
 
 .text {
