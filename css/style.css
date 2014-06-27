@@ -694,7 +694,6 @@ section#resources, section#article {
   float: left;
   clear: both;
   width: 100%;
-  margin-top: 33px;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.8);
 }
