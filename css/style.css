@@ -649,6 +649,8 @@ section#resources, section#article {
 
 .guide .fa-apple {
 	font-size: 6em;
+	color: #fff;
+	text-align: center;
 }
 .guide span {
 	text-indent: -999em;
