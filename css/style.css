@@ -875,9 +875,6 @@ h6,
 .h6 {
   font-size: .85em;
 }
-p {
-  margin: 0 0 10px;
-}
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -904,7 +901,7 @@ mark,
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
 }
 ul ul,
 ol ul,
