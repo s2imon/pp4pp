@@ -470,7 +470,7 @@ section#resources, section#article {
 	color: #e36237;
 }
 
-#inside_website .important_text, bq.important_text {
+#inside_website .important_text, .bq.important_text {
   background-color: #FCF8F2;
   border-color: #eabf58;
   color: rgb(0, 0, 0);
