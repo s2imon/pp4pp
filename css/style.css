@@ -72,6 +72,10 @@ hr {
 }
 .guide .fa-android:hover {
 	color: #99CC00;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
 }
 
 .button {
@@ -203,6 +207,10 @@ section#resources, section#article {
 
 .guide .fa-apple:hover {
 	color: #ddd;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
 }
 
 .learn-cta {
@@ -419,6 +427,10 @@ section#resources, section#article {
 
 .guide .fa-windows:hover {
 	color: #890e8d;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
 }
 
 ._element {
