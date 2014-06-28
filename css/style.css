@@ -479,7 +479,7 @@ section#resources, section#article {
 	color: #eabf58;
 }
 .bq.important_text {
-	background-image: 'images/bg_squared.jpg';
+	background-image: url('../images/bg_squared.jpg');
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-position: center top;
