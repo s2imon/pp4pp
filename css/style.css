@@ -470,13 +470,21 @@ section#resources, section#article {
 	color: #e36237;
 }
 
-#inside_website .important_text, .bq.important_text {
+#inside_website .important_text {
   background-color: #FCF8F2;
   border-color: #eabf58;
   color: rgb(0, 0, 0);
 }
 #inside_website .important_text h4 {
 	color: #eabf58;
+}
+.bq.important_text {
+	background-image: 'images/bg_squared.jpg';
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: center top;
+	border: 1px solid #DDF0F2;
+	border-left: 3px solid #DDF0F2;
 }
 
 #resources ._container {
