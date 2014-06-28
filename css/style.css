@@ -70,6 +70,9 @@ hr {
 	color: #99CC00;
   text-shadow: 0 1px 12px #99CC00;
 }
+.guide .fa-android:hover {
+	color: #99CC00;
+}
 
 .button {
 	
@@ -196,6 +199,10 @@ section#resources, section#article {
 .ios:hover {
   color: #ddd;
   text-shadow: 0 1px 12px #ddd;
+}
+
+.guide .fa-apple:hover {
+	color: #ddd;
 }
 
 .learn-cta {
@@ -408,6 +415,10 @@ section#resources, section#article {
 .wphone:hover {
 	color: #890e8d;
   text-shadow: -0 1px 12px #890e8d;
+}
+
+.guide .fa-windows:hover {
+	color: #890e8d;
 }
 
 ._element {
