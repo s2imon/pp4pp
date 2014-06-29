@@ -486,8 +486,9 @@ section#resources, section#article {
 	border: 0;
 	border-left: 3px solid #333;
 }
-.bg.important_text p {
+.bq.important_text p {
 	line-height: 30px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
 #resources ._container {
