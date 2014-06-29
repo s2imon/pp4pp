@@ -483,8 +483,11 @@ section#resources, section#article {
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-position: center top;
-	border: 1px solid #DDF0F2;
-	border-left: 3px solid #DDF0F2;
+	border: 0;
+	border-left: 3px solid #333;
+}
+.bg.important_text p {
+	line-height: 30px;
 }
 
 #resources ._container {
