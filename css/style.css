@@ -736,7 +736,7 @@ h1.guide {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.text p {
+.text p, .image, img {
   margin-bottom: 1.364em;
 }
 
