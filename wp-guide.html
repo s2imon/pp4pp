@@ -25,23 +25,23 @@
     <div class="container clearfix">
       <div class="text">
       
+      <p>Updated: 30.06.2014</p>
       <p>This page answers the <strong>question why and how you should add a privacy policy to your Windows phone app and how you can add it to the Windows Phone Store</strong>.</p>
       
       <img src="images/test_cartoon.png" alt="How to update the privacy policy on the Windows Phone Store" />
       
       <p>For an overview of the legal requirements head back <a href="https://s2imon.github.io/pp4pp/">to the main page</a>.</p>
       
-      <h3>1) Do I have to include a privacy policy in my Windows Phone app?</h3>
-      <ol>
-      <li>Well, that depends on what the app is doing. But consider the fact, that you can never be wrong including a link or a full page view of your privacy policy. It is however very likely that you are <a href="http://www.iubenda.com/blog/2013/06/10/the-need-for-privacy-policies-in-mobile-apps-an-overview/">required by law to include a privacy policy</a> into your Windows Phone creation. Easy CHECK: <strong>Am I collecting/storing/sharing personal information</strong> like email, names or sensitive data like payments info or using a third party service that accesses my info?</li>
-      <li>You are likely using a third party service in your app that requires you to add a privacy policy to your app. Additionally to a legal requirement it is often an additional prerequisite to use a specific service. Check in your service provider's terms. A very popular third party service that requires you to post a <a href="http://www.google.com/analytics/terms/us.html">privacy policy in their TOS</a> is Google Analytics (they also have a mobile solution).</li>
-      </ol>
-      <h3>2) Am I required by the Windows Phone Store to post a privacy policy?</h3>
-      <ol>
-      <li>For now (updated 24.3.2014) this is not the case. There is <em><strong>no absolute</strong></em> requirement for a privacy policy to be included for the app to be accepted to be listed. But it's actually very unlikely that you won't be covered by one of the following requirements below:</li>
-      <li>From the&nbsp;<a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh694083.aspx">App certification requirements for the Windows Store</a>: "If your app <strong>has the technical ability to transmit data, you must maintain a privacy policy</strong>. You must provide access to your privacy policy in the&nbsp;<strong>Description</strong>&nbsp;page of your app, as well as in the app’s settings as displayed in the Windows Settings charm"</li>
-      <li>From the <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx">App Developer Agreement</a>:&nbsp;"If your app enables access to and the use of any Internet-based services, or <strong>otherwise collects or transmits any user’s personal information, you must maintain a privacy policy</strong>.<strong> You are responsible for informing customers of your privacy policy</strong> (including by submitting that policy to us for display to customers). Your privacy policy must (i) comply with applicable laws and regulations, (ii) inform users of the information collected by your app and how that information is used, stored, secured and disclosed, and (iii) describe the controls that users have over the use and sharing of their information, and how they may access their information. You must also provide access to your privacy policy in the app’s settings as displayed in the Windows settings charm".</li>
-      <li><em>From same App Developer Agreement:</em>&nbsp;The&nbsp;app and your marketing of the app must <strong>comply with the laws of each territory or country into which you request distribution of the app</strong>. This includes: (i) <strong>data protection, privacy</strong> and other laws and regulations relating to collection and use of user information by your app (ii) telecommunications laws and (iii) content ratings regulations. If you are required to make any disclosures to consumers prior to sale or download of the app, you must provide those in the app description field. Those may include your full contact information, notice that an app supports in-app purchases, or other disclosures. You must make such notices sufficiently prominent as is required by local law. Your app must not require further export, import or technology control licensing from any government. You must disclose to Microsoft any controlled technology employed, used or supported by your app. You may not use the Windows Store or any services or tools made available for the development of apps for any illegal activity.</li>
+      <h3>1) Am I required by the Windows Phone Store to post a privacy policy?</h3>
+      
+      <p>For now this is not the case. There is <em>no absolute</em> requirement for a privacy policy to be included for the app to be accepted onto the Windows Phone Marketplace. But it's actually very unlikely that you won't be covered by one of the following requirements below:</p>
+      
+      <div class="bq important_text">
+        <h4>From the <b>App certification requirements for the Windows Store</b></h4>
+        <p>If your app has <em>the technical ability to transmit data, you must maintain a privacy policy</em>. You must provide access to your privacy policy in the Description page of your app, as well as in the app’s settings as displayed in the Windows Settings charm. (<em><a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh694083.aspx">ACRWS</a></em>)</p>
+      </div>
+      <li>From the <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx">App Developer Agreement</a>: "If your app enables access to and the use of any Internet-based services, or <strong>otherwise collects or transmits any user’s personal information, you must maintain a privacy policy</strong>.<strong> You are responsible for informing customers of your privacy policy</strong> (including by submitting that policy to us for display to customers). Your privacy policy must (i) comply with applicable laws and regulations, (ii) inform users of the information collected by your app and how that information is used, stored, secured and disclosed, and (iii) describe the controls that users have over the use and sharing of their information, and how they may access their information. You must also provide access to your privacy policy in the app’s settings as displayed in the Windows settings charm".</li>
+      <li><em>From same App Developer Agreement:</em> The app and your marketing of the app must <strong>comply with the laws of each territory or country into which you request distribution of the app</strong>. This includes: (i) <strong>data protection, privacy</strong> and other laws and regulations relating to collection and use of user information by your app (ii) telecommunications laws and (iii) content ratings regulations. If you are required to make any disclosures to consumers prior to sale or download of the app, you must provide those in the app description field. Those may include your full contact information, notice that an app supports in-app purchases, or other disclosures. You must make such notices sufficiently prominent as is required by local law. Your app must not require further export, import or technology control licensing from any government. You must disclose to Microsoft any controlled technology employed, used or supported by your app. You may not use the Windows Store or any services or tools made available for the development of apps for any illegal activity.</li>
       <li><em>From<a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh184841(v=vs.105).aspx"> App policies for Windows Phone</a></em>: The privacy policy of your app must inform users about how location data from the Location Service API is used and disclosed and the controls that users have over the use and sharing of location data. This can be hosted within or directly linked from the app. The privacy policy must be accessible from your app at any time - (2.7.2).</li>
       <li><em>Same App policies I (2.7.4)</em>: If your app <strong>publishes or makes available location data obtained from the Location Service API to any other service or other person (including advertising networks)</strong>, your app must implement a method to obtain opt-in consent. To "implement a method to obtain 'opt-in' consent," the app must:
       <ul>
@@ -57,11 +57,11 @@
       </ol>
       <h3>3) How do I add/edit my privacy policy on the Windows Phone store?</h3>
       <p>This section explains how you add your privacy policy to the actual app store page for users or customers to preview the data collection practices before downloading:</p>
-      <ol>
-      <li>Log into your&nbsp;<a href="http://developer.windowsphone.com/en-us">Windows Phone Dev Center account</a></li>
-      <li>Next, add the link to your privacy policy in the Privacy URL field</li>
-      <li>Done.</li>
-      </ol>
+      <ul class="fa-ul">
+      <li><i class="fa-li fa fa-circle"></i> Log into your <a href="http://developer.windowsphone.com/en-us">Windows Phone Dev Center account</a>;</li>
+      <li><i class="fa-li fa fa-circle"></i> add the link to your privacy policy in the Privacy URL field;</li>
+      <li><i class="fa-li fa fa-circle"></i> Done.</li>
+      </ul>
       
       </div>
 
