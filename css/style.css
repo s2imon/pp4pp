@@ -479,12 +479,12 @@ section#resources, section#article {
 	color: #eabf58;
 }
 .bq.important_text {
-	background-image: url('../images/bg_squared.jpg');
+	background-color: #F7F7F9;
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-position: center top;
 	border: 0;
-	border-left: 3px solid #333;
+	border-left: 3px solid #E7E7E7;
 	padding-top: 24px;
 }
 .bq.important_text p, .bq.important_text ul {
