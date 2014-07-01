@@ -489,6 +489,7 @@ section#resources, section#article {
 }
 .bq.important_text p, .bq.important_text ul {
 	line-height: 30px;
+	font-size: 14px;
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
