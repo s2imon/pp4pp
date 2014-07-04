@@ -695,7 +695,6 @@ h1.guide {
   background-size: cover;
   background-position: left top;
 }
-
 .header .container {
   position: absolute;
   top: 0;
@@ -715,6 +714,10 @@ h1.guide {
   margin-top: 33px;
   overflow: hidden;
 }*/
+
+.github-button {
+	margin: 10px 0 0 10px;
+}
 
 .iubenda-cta {
   position: absolute;
