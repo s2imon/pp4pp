@@ -574,8 +574,7 @@ section#resources, section#article {
 
 .more {
 	display: none;
-	border-top: 1px solid #666;
-	border-bottom: 1px solid #666;
+	border-top: 1px solid #eee;
 }
 a.showLink, a.hideLink {
 	text-decoration: none;
