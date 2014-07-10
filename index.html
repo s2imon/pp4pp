@@ -100,40 +100,44 @@
         app platform, before they download the app</em>.<br /><a href="http://goo.gl/dQQfuT">Read more</a></p>
         <p><b>App stores:</b> The app stores themselves require privacy policies more and more often. This is part of a push by California's AG to get Amazon, Apple, Google, Hewlett-Packard, Microsoft, RIM and Facebook to improve the privacy situation in the mobile sphere.<br /><a href="http://goo.gl/oBAapo">App Store Review Guidelines</a> &middot; <a href="http://goo.gl/8ymwK">Google Play Developer Distribution Agreement</a> &middot; <a href="http://goo.gl/By8hN">App Certification Requirements for the Windows Store</a> &middot; <a href="http://goo.gl/3f2rg0">Amazon Appstore App Distribution Agreement</a> &middot; <a href="http://goo.gl/vfQxpu">Firefox Marketplace Review Criteria</a></p>
 			</div>
-			<p>The app stores provide special spots to show your privacy policy. Follow the guides below to find them on the respective app stores.</p>
-			<ul class="fa-ul">
-			  <li><i class="fa-li fa fa-circle"></i> <a href="ios-guide.html">Guide for iOS Developers</a></li>
-			  <li><i class="fa-li fa fa-circle"></i> <a href="play-guide.html">Guide for Android/Play Developers</a></li>
-			  <li><i class="fa-li fa fa-circle"></i> <a href="wp-guide.html">Guide for Windows Phone Developers</a></li>
-			</ul>
-			<p>Where the privacy policy can be found on the app store pages:</p>
-			
-			<div id="appstore_img" class="collapse in"><a href="http://wordbaseapp.com"><img src="images/app_store.png" alt="Wordbase on the App Store" /></a></div>
-			<button type="button" class="toggle" data-toggle="collapse" data-target="#appstore_img">
-			  This is Wordbase on Apple's App Store. PP displays under "Links"
-			</button>
-			
-			<div id="appstore_img2" class="collapse in"><a href="https://itunes.apple.com/en/app/foursquare/id306934924?mt=8"><img src="images/app_store2.png" alt="Foursquare on the iPhone" /></a></div>
-			<button type="button" class="toggle" data-toggle="collapse" data-target="#appstore_img2">
-			  This is Foursquare on Apple's App Store on an iPhone
-			</button>
-
-			<div id="playstore_img" class="collapse in"><img src="images/play_store.png" alt="Threes on the Play Store" /></div>			
-			<button type="button" class="toggle" data-toggle="collapse" data-target="#playstore_img">
-			  This is Threes on the Play store. PP displays under "Additional Information"
-			</button>
-
-			<div id="wpstore_img" class="collapse in"><img src="images/wphone_store.png" alt="Vevo on the Windows Phone Store" /></div>			
-			<button type="button" class="toggle" data-toggle="collapse" data-target="#wpstore_img">
-			  Random app on the Windows Phone Store. PP displays in the left sidebar
-			</button>
-			
-			<div id="ffstore_img" class="collapse in"><img src="images/ff_store.png" alt="Firefox OS privacy policy location" /></div>			
-			<button type="button" class="toggle" data-toggle="collapse" data-target="#ffstore_img">
-			  Line app on the Firefox OS Store. PP displays below the reviews
-			</button>
-			
-			<p>When done, <a href="#inside_website">move to 3)</a>, the privacy policy on the site.</p>
+			<a href="#" id="example-show" class="showLink" 
+			onclick="showHide('example');return false;">See more.</a>
+			<div id="example" class="more">
+				<p>The app stores provide special spots to show your privacy policy. Follow the guides below to find them on the respective app stores.</p>
+				<ul class="fa-ul">
+				  <li><i class="fa-li fa fa-circle"></i> <a href="ios-guide.html">Guide for iOS Developers</a></li>
+				  <li><i class="fa-li fa fa-circle"></i> <a href="play-guide.html">Guide for Android/Play Developers</a></li>
+				  <li><i class="fa-li fa fa-circle"></i> <a href="wp-guide.html">Guide for Windows Phone Developers</a></li>
+				</ul>
+				<p>Where the privacy policy can be found on the app store pages:</p>
+				
+				<div id="appstore_img" class="collapse in"><a href="http://wordbaseapp.com"><img src="images/app_store.png" alt="Wordbase on the App Store" /></a></div>
+				<button type="button" class="toggle" data-toggle="collapse" data-target="#appstore_img">
+				  This is Wordbase on Apple's App Store. PP displays under "Links"
+				</button>
+				
+				<div id="appstore_img2" class="collapse in"><a href="https://itunes.apple.com/en/app/foursquare/id306934924?mt=8"><img src="images/app_store2.png" alt="Foursquare on the iPhone" /></a></div>
+				<button type="button" class="toggle" data-toggle="collapse" data-target="#appstore_img2">
+				  This is Foursquare on Apple's App Store on an iPhone
+				</button>
+	
+				<div id="playstore_img" class="collapse in"><img src="images/play_store.png" alt="Threes on the Play Store" /></div>			
+				<button type="button" class="toggle" data-toggle="collapse" data-target="#playstore_img">
+				  This is Threes on the Play store. PP displays under "Additional Information"
+				</button>
+	
+				<div id="wpstore_img" class="collapse in"><img src="images/wphone_store.png" alt="Vevo on the Windows Phone Store" /></div>			
+				<button type="button" class="toggle" data-toggle="collapse" data-target="#wpstore_img">
+				  Random app on the Windows Phone Store. PP displays in the left sidebar
+				</button>
+				
+				<div id="ffstore_img" class="collapse in"><img src="images/ff_store.png" alt="Firefox OS privacy policy location" /></div>			
+				<button type="button" class="toggle" data-toggle="collapse" data-target="#ffstore_img">
+				  Line app on the Firefox OS Store. PP displays below the reviews
+				</button>
+				
+				<p>When done, <a href="#inside_website">move to 3)</a>, the privacy policy on the site.</p>
+			</div>
     </div>
 
     <div id="inside_website" class="clearfix">
@@ -223,6 +227,18 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+	function showHide(shID) {
+		if (document.getElementById(shID)) {
+			if (document.getElementById(shID+'-show').style.display != 'none') {
+				document.getElementById(shID+'-show').style.display = 'none';
+				document.getElementById(shID).style.display = 'block';
+			}
+			else {
+				document.getElementById(shID+'-show').style.display = 'inline';
+				document.getElementById(shID).style.display = 'none';
+			}
+		}
+	}
 	$("[data-toggle=tooltip").tooltip();
 	$('#appstore_img, #appstore_img2, #playstore_img, #wpstore_img, #ffstore_img, #instapaper, #iubenda').collapse("hide");
 });
