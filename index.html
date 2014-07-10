@@ -53,6 +53,12 @@
         <br /><a href="http://goo.gl/dQQfuT">Read more</a> &middot; <a href="http://goo.gl/eKczwT">Read more about Australia</a> &middot; <a href="http://goo.gl/7jpz59">Read more about Canada</a></p>
         <p><b>European countries:</b> Europe's data protection think tank says that the relevant information about the data processing <em>must also be accessible from within the app</em>, after installation. That way you make sure that the user does not have to search for it anywhere else.<br /><a href="http://goo.gl/CyqsQ">Read more</a></p>
       </div>
+      
+			<a href="#" id="app-show" class="showLink" 
+			onclick="showHide('app_more');return false;">See more.</a>
+
+			<div id="app_more" class="more">
+      
       <p><b>Your privacy policy must be understandable and easily accessible</b>. It informs users at a minimum about the following:</p>
       <ul class="fa-ul">
         <li><i class="fa-li fa fa-circle"></i> who they are (identity and contact details),</li>
@@ -84,6 +90,9 @@
       </button>
       
       <p>When done, <a href="#inside_app_store">move to 2)</a>, the privacy policy on the app store.</p>
+      
+      </div>
+      
     </div>
 
     <div id="inside_app_store" class="clearfix">
@@ -100,9 +109,11 @@
         app platform, before they download the app</em>.<br /><a href="http://goo.gl/dQQfuT">Read more</a></p>
         <p><b>App stores:</b> The app stores themselves require privacy policies more and more often. This is part of a push by California's AG to get Amazon, Apple, Google, Hewlett-Packard, Microsoft, RIM and Facebook to improve the privacy situation in the mobile sphere.<br /><a href="http://goo.gl/oBAapo">App Store Review Guidelines</a> &middot; <a href="http://goo.gl/8ymwK">Google Play Developer Distribution Agreement</a> &middot; <a href="http://goo.gl/By8hN">App Certification Requirements for the Windows Store</a> &middot; <a href="http://goo.gl/3f2rg0">Amazon Appstore App Distribution Agreement</a> &middot; <a href="http://goo.gl/vfQxpu">Firefox Marketplace Review Criteria</a></p>
 			</div>
-			<a href="#" id="example-show" class="showLink" 
-			onclick="showHide('example');return false;">See more.</a>
-			<div id="example" class="more">
+
+			<a href="#" id="appstore-show" class="showLink" 
+			onclick="showHide('appstore_more');return false;">See more.</a>
+
+			<div id="appstore_more" class="more">
 				<p>The app stores provide special spots to show your privacy policy. Follow the guides below to find them on the respective app stores.</p>
 				<ul class="fa-ul">
 				  <li><i class="fa-li fa fa-circle"></i> <a href="ios-guide.html">Guide for iOS Developers</a></li>
@@ -138,6 +149,7 @@
 				
 				<p>When done, <a href="#inside_website">move to 3)</a>, the privacy policy on the site.</p>
 			</div>
+			
     </div>
 
     <div id="inside_website" class="clearfix">
@@ -155,16 +167,25 @@
         Often, the requirement for a privacy policy is only triggered by the commercial nature of the site/app (see California's Business and Professions Code "<a href="http://www.leginfo.ca.gov/cgi-bin/displaycode?section=bpc&group=22001-23000&file=22575-22579">An operator of a commercial Web site (...)</a>"). 
         </p>        
 			</div>
-			<p>On websites privacy policies usually go in the footer, where it can be accessed from every page.</p>
-			<p>P.S. It makes sense to include both the website's and the mobile apps data processing into the same policy in this case.</p>
-			<p>Screenshot/example:</p>
-
-      <div id="wordbase_site" class="collapse in"><img src="images/wordbase_website.png" alt="WordBase promotional site" /></div>
-			<a class="link" href="http://wordbaseapp.com"><button type="button">
-			  <i class="fa fa-external-link"></i> Wordbase's privacy policy on the promotional site.
-			</button></a>
 			
-			<p><a href="http://www.webdesignerdepot.com/2014/04/the-web-designers-guide-to-presenting-legal-stuff/">This is a great article</a>, if you need inspiration for privacy policy designs on the web.</p>
+			<a href="#" id="promotional-show" class="showLink" 
+			onclick="showHide('promotional_more');return false;">See more.</a>
+
+			<div id="promotional_more" class="more">
+			
+				<p>On websites privacy policies usually go in the footer, where it can be accessed from every page.</p>
+				<p>P.S. It makes sense to include both the website's and the mobile apps data processing into the same policy in this case.</p>
+				<p>Screenshot/example:</p>
+	
+	      <div id="wordbase_site" class="collapse in"><img src="images/wordbase_website.png" alt="WordBase promotional site" /></div>
+				<a class="link" href="http://wordbaseapp.com"><button type="button">
+				  <i class="fa fa-external-link"></i> Wordbase's privacy policy on the promotional site.
+				</button></a>
+				
+				<p><a href="http://www.webdesignerdepot.com/2014/04/the-web-designers-guide-to-presenting-legal-stuff/">This is a great article</a>, if you need inspiration for privacy policy designs on the web.</p>
+				
+			</div>
+			
     </div>
   </section>
 
@@ -230,6 +251,20 @@ $(document).ready(function(){
 	$("[data-toggle=tooltip").tooltip();
 	$('#appstore_img, #appstore_img2, #playstore_img, #wpstore_img, #ffstore_img, #instapaper, #iubenda').collapse("hide");
 });
+</script>
+<script type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
 </script>
 </body>
 </html>
