@@ -9,9 +9,9 @@ function showHide(shID) {
          document.getElementById(shID).style.display = 'none';
       }
    }
-}j
+}
 
-Query(function() {
+jQuery(function() {
 	//catch all clicks on a tags
 	jQuery("a").click(function(){
 		//check if it has a hash (i.e. if it's an anchor link)
