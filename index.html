@@ -227,18 +227,6 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
-	function showHide(shID) {
-		if (document.getElementById(shID)) {
-			if (document.getElementById(shID+'-show').style.display != 'none') {
-				document.getElementById(shID+'-show').style.display = 'none';
-				document.getElementById(shID).style.display = 'block';
-			}
-			else {
-				document.getElementById(shID+'-show').style.display = 'inline';
-				document.getElementById(shID).style.display = 'none';
-			}
-		}
-	}
 	$("[data-toggle=tooltip").tooltip();
 	$('#appstore_img, #appstore_img2, #playstore_img, #wpstore_img, #ffstore_img, #instapaper, #iubenda').collapse("hide");
 });
