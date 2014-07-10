@@ -576,7 +576,9 @@ section#resources, section#article {
 	display: none;
 	border-top: 1px solid #eee;
 }
+
 a.showLink, a.hideLink {
+  color: #666;
 	text-decoration: none;
 	padding-left: 8px;
   display: block;
@@ -584,6 +586,11 @@ a.showLink, a.hideLink {
 }
 a.hideLink {
 }
+
+.showLink {
+	font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
 /* Guides */
 
 #article {
