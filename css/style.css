@@ -575,17 +575,16 @@ section#resources, section#article {
 .more {
 	display: none;
 	border-top: 1px solid #666;
-	border-bottom: 1px solid #666; }
+	border-bottom: 1px solid #666;
+}
 a.showLink, a.hideLink {
 	text-decoration: none;
 	padding-left: 8px;
-	background: transparent url('down.gif') no-repeat left;
   display: block;
   text-align: center;
 }
 a.hideLink {
-	background: transparent url('up.gif') no-repeat left; }
-
+}
 /* Guides */
 
 #article {
