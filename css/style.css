@@ -115,8 +115,17 @@ hr {
 	margin-bottom: .5em;
 }
 
-section#resources, section#article {
+section#resources {
+	margin-bottom: 223px;
+}
+section#article {
 	margin-bottom: 250px;
+}
+
+.section#safari-hack {
+	height: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .cta {
