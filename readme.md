@@ -4,7 +4,7 @@
 
 # pp4pp - Privacy Policies for Apps
 
-This is a mini site where I put my learnings from working on iubenda for app creators. Comments, feedback and push requests welcomed.
+This is a mini site where I put my learnings from working on iubenda for app creators. Comments, feedback and pull requests welcomed.
 
 To get started, checkout <http://s2imon.github.io/pp4pp>!
 
