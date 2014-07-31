@@ -1,7 +1,3 @@
-> This guide is not officially published and ready yet. 
-> Most of all the images are placeholders and need licenses from my part before publishing.
-
-
 # pp4pp - Privacy Policies for Apps
 
 This is a mini site where I put my learnings from working on iubenda for app creators. Comments, feedback and pull requests welcomed.
@@ -36,4 +32,10 @@ How to add a privacy policy to the Windows Phone Store <http://s2imon.github.io/
 
 <http://iubenda.com/mobile>
 
-I'll even give you 10% off your first year.
+I'll even give you 10% off your first year with this link <http://goo.gl/UO8VK7>.
+
+
+
+## Who am I
+
+I'm [Simon](http://twitter.com/s2imon), I work with iubenda and blog at <http://thegodfounder.com>.
