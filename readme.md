@@ -8,6 +8,8 @@ To get started, checkout <http://s2imon.github.io/pp4pp>!
 
 ## Quick access
 
+Main page <http://s2imon.github.io/pp4pp>
+
 Core to this site are several guides for adding the privacy policies to the app stores:
 
 How to add a privacy policy to the App Store <http://s2imon.github.io/pp4pp/ios-guide.html>
