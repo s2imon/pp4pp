@@ -29,13 +29,9 @@ How to add a privacy policy to the Windows Phone [pp4pp/wp-guide.html](http://s2
 - what rights users have, in terms of withdrawal of consent and deletion of data;
 
 
-
 ## Stuck? Get a iubenda policy
 
 <http://iubenda.com/mobile>
-
-I'll even give you 10% off your first year with this link <http://goo.gl/UO8VK7>.
-
 
 
 ## Who am I
